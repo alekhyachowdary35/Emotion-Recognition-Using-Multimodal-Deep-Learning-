@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color: white;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.main {
+    background: transparent;
+}
+
+/* Title */
+.title {
+    font-size: 44px;
+    font-weight: 700;
+    background: linear-gradient(90deg,#00f5ff,#00ffa2,#ffd36e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 17px;
+    color: #d0e6f2;
+    margin-bottom: 25px;
+}
+
+/* Result */
+.result {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    background: linear-gradient(90deg,#00ffa2,#00f5ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 25px;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(90deg,#00ffa2,#00f5ff) !important;
+    color: black !important;
+    border-radius: 12px !important;
+    font-size: 16px !important;
+    padding: 10px 24px !important;
+    border: none !important;
+}
+
+/* Upload & Camera boxes */
+section[data-testid="stFileUploader"],
+section[data-testid="stCameraInput"] {
+    background: rgba(255,255,255,0.08);
+    padding: 18px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Radio */
+div[role="radiogroup"] label {
+    font-size: 17px;
+}
